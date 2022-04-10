@@ -1,0 +1,38 @@
+{
+  "intents":
+[
+        {
+      "tag": "greeting",
+      "patterns": ["Ciao", "Hello", "What's up?", "How is it going on?", "Hi", "Good day"],
+      "responses": ["Hello Sir!", "Hello, what can i do for you"]
+      },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can help you with making your computer tasks simpler"]
+        },
+          {"tag": "music",
+         "patterns": ["Play a song"],
+         "responses": ["Ok, choose a platform and tell me which song you would like to play"]
+        },
+           {"tag": "weather",
+         "patterns": ["What is the weather in my country?", "Will it rain tomorrow?", "What is the weather for this week?"],
+         "responses": ["Wait a second, i'm checking the weather"]
+        },
+            {"tag": "browse",
+         "patterns": ["What's the", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"]
+        }
+   ]
+}
